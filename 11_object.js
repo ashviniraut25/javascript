@@ -74,3 +74,7 @@ let person = {
   const isCityAvailable = "city" in student;
   console.log(`Is City available in student object: ${isCityAvailable}`);
   console.log(`Is marks available in student object: ${"marks" in student}`);
+
+
+
+  
