@@ -69,3 +69,13 @@ for (const employee of arrayEmployee) {
         console.log(`-------------------------------------------------------------------------------------------------`);
     }
 }
+
+let sumSalary = 0;
+
+arrayEmployee.forEach(employee => {
+    sumSalary = sumSalary + employee.empSalary;
+
+
+});
+let result = sumSalary/arrayEmployee.length;
+console.log(result);
