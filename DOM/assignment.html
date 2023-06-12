@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise time</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li class="li">Flexible</li>
+                <li class="li1">Available</li>
+                <li class="li">Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading.innerHTML);
+        const secondAdvantage = document.querySelector(".li1");
+        console.log(secondAdvantage.innerHTML);
+       
+        const addDiv = document.querySelectorAll("#advantages")
+       addDiv.forEach((element) => {
+        console.log(element.innerHTML);
+       });
+          
+     
+    </script>
+</body>
+</html>
