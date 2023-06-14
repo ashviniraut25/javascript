@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My Profile Details</h1>
+    <h2 id="tech">Technology Stack</h2>
+
+    <ul id="tc">
+        <li>HTML and CSS</li>
+        <li id="stack">Agile and JIRA</li>
+        <li>Angular or React</li>
+        <li>Oracle Database</li>
+    </ul>
+    <h1>My Hobbies</h1>
+    <a href="https://www.google.com/" target="_blank" class="link"> My Profile </a>
+    <p>Project Description</p>
+
+    <script>
+        const elementh1 = document.querySelector('h1');
+        elementh1.style.color = 'red';
+
+        const elementTech = document.querySelector('#tech');
+        elementTech.style.color = 'red';
+        elementTech.style.fontWeight = 'bold';
+
+
+        const elementTechStack = document.querySelector('#tc');
+        const elementAgileJira = document.querySelector('#stack');
+        elementTechStack.removeChild(elementAgileJira);
+        elementTechStack.style.fontWeight = 'bold';
+
+        const elementHome = document.querySelector('.link');
+        elementHome.style.fontWeight = 'bold';
+
+        const p = document.querySelector('p');
+        p.style.fontWeight = 'bold';
+    </script>
+</body>
+
+</html>
